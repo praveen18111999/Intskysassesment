@@ -1,0 +1,81 @@
+.container {
+    max-width: 400px;
+    margin: 20px auto;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    overflow: hidden;
+    font-family: sans-serif;
+    box-shadow: 0 0 8px rgba(0,0,0,0.1);
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #f66;
+    color: white;
+    padding: 10px 15px;
+    font-size: 20px;
+  }
+  
+  .icon {
+    cursor: pointer;
+    font-size: 20px;
+  }
+  
+  .red {
+    color: white;
+  }
+  
+  .green {
+    color: white;
+    background: #4caf50;
+    border: none;
+    border-radius: 50%;
+    padding: 6px 10px;
+  }
+  
+  .reminder-list {
+    padding: 10px 15px;
+    max-height: 200px;
+    overflow-y: auto;
+    background: #f7f7f7;
+  }
+  
+  .reminder-list div {
+    display: flex;
+    justify-content: space-between;
+    padding: 4px 0;
+  }
+  
+  .passed {
+    text-decoration: line-through;
+    color: gray;
+  }
+  
+  .input-row {
+    display: flex;
+    align-items: center;
+    padding: 10px 15px;
+    gap: 10px;
+  }
+  
+  .input-row input[type="text"] {
+    flex: 2;
+    padding: 6px;
+  }
+  
+  .input-row input[type="time"] {
+    flex: 1;
+  }
+  
+  .add-btn {
+    width: 100%;
+    background: royalblue;
+    color: white;
+    padding: 10px;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
